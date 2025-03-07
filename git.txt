@@ -1,0 +1,36 @@
+8b140b20e7
+Version Control Systems VCS
+git config
+mkdir -> creates new repository
+cd -> for going to folder
+git init -> initialising new repository(after creation)
+git add-adds a new file
+git  diff
+git reset
+git  commit -m"firstcommit"
+git log - gives u a log
+git branch branch name- creates a new branch
+git checkout  -b masterdir ->creates a new branch and moves to that path
+git remote remove origin -> removes origin 
+git push -u origin master -> to push a file to GitHub
+if local rep is main and cloud is master ; use main:master or else go to master directory and push from there
+
+Order of execution
+after making file in a certain folder open it in terminal
+git add "filename.txt"
+git commit -m "commitname"
+git remote add orgin "url of ur repo"
+git push -u origin master(if branch is already in cloud rep ie master)
+if its not then
+git checkout master
+git push -u origin master
+
+
+git checkout -b "branchname" creates new branch and moves there
+git branch "branch name" creates new branch👇
+git checkout "branch name" moves to the the branch
+git remote add orgin "url of ur repo"
+git clone URL
+
+
+
